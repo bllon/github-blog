@@ -59,4 +59,4 @@ jobs:
                   folder: public
                   clean: true
                   single-commit: true
-                  commit-message: "博客部署"
+                  commit-message: "博客自动部署"
