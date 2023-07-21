@@ -53,7 +53,10 @@ jobs:
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@4.1.4
               with:
-                  branch: gh-pages
+                  token: blog
+                  repository-name: bllon/bllon.github.io
+                  branch: main
                   folder: public
                   clean: true
                   single-commit: true
+                  commit-message: "博客部署"
