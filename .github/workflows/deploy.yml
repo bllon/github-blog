@@ -55,7 +55,7 @@ jobs:
               with:
                   token: ${{ secrets.PERSONAL_TOKEN }}
                   repository-name: bllon/bllon.github.io
-                  branch: main
+                  branch: blog-v1
                   folder: public
                   clean: true
                   single-commit: true
