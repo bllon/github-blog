@@ -1,19 +1,13 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
-date: 2022-03-06 00:00:00+0000
+title: 开启新篇章
+description: 欢迎来到我的GitHub个人空间
+slug: hello
+date: 2023-07-21 00:00:00+0000
 image: cover.jpg
 categories:
-    - Example Category
+    - hello
 tags:
-    - Example Tag
+    - hello Tag
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
-
-For more information about this theme, check the documentation: https://docs.stack.jimmycai.com/
-
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
-
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+欢迎来到我的GitHub个人页面, 我将在这里分享我所有的编程创作历程和学习经验, 请为我点亮star, 让我们一起成为更好的开发者!
