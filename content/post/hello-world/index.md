@@ -2,7 +2,7 @@
 title: 开启新篇章
 description: 欢迎来到我的GitHub个人页面
 slug: hello
-date: 2023-07-21 16:00:00+0000
+date: 2023-07-21
 image: hello.jpg
 categories:
     - hello
