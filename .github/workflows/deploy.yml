@@ -55,7 +55,7 @@ jobs:
               with:
                   token: blog
                   repository-name: bllon/bllon.github.io
-                  branch: main
+                  branch: gh-pages
                   folder: public
                   clean: true
                   single-commit: true
