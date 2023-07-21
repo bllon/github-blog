@@ -3,6 +3,7 @@ title: Go环境安装
 description: Go语言环境详细安装教程
 slug: go-install
 date: 2023-07-21 17:00:00+0000
+image:
 categories:
 - Go
 tags:
