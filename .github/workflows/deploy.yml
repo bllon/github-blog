@@ -55,7 +55,7 @@ jobs:
               with:
                   token: ${{ secrets.PERSONAL_TOKEN }}
                   repository-name: bllon/bllon.github.io
-                  branch: gh-pages
+                  branch: main
                   folder: public
                   clean: true
                   single-commit: true
