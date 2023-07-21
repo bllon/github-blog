@@ -21,4 +21,4 @@ name = "CSDN"
 url = "https://blog.csdn.net/qq_36767214?type=blog"
 
 [social.params]
-icon = "img/csdn.png"
+icon = "csdn"
