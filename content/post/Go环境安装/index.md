@@ -12,9 +12,7 @@ tags:
 
 ## Windows下安装
 ### 下载Go语言sdk
-[sdk下载地址](https://golang.google.cn/dl/)
-
-找到stable version版本, 目前已经更新到1.20.6
+[sdk下载地址](https://golang.google.cn/dl/) , 找到stable version版本, 目前已经更新到1.20.6
 
 windows系统64位下载windows-amd64.zip, 32位下载windows-386.zip, 一般都是64位
 
@@ -25,9 +23,11 @@ windows系统64位下载windows-amd64.zip, 32位下载windows-386.zip, 一般都
 
 新建系统变量
 
+```
 GOROOT  =>  go的sdk解压存放目录（例如D:/go）
 
 GOPATH  =>  新建go的项目目录（例如D:/project/go）
+```
 
 找到系统变量中的Path, 双击进入, 新建
 
@@ -42,18 +42,13 @@ win + R 组合键, 输入cmd进入命令行, 输入go version, 输出得到go ve
 继续在命令行终端里输入并回车
 ```shell
 go env -w GO111MODULE=on
-```
-```shell
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
-
 至此windows下的Go环境安装完毕
 
 ## Linux下安装
 ### 下载Go语言sdk
-[sdk下载地址](https://golang.google.cn/dl/)
-
-找到stable version版本, 目前已经更新到1.20.6
+[sdk下载地址](https://golang.google.cn/dl/) , 找到stable version版本, 目前已经更新到1.20.6
 
 linux系统64位下载linux-amd64.tar.gz, 32位下载linux-386.tar.gz, 一般都是64位, 鼠标右键可以复制对应链接
 
@@ -71,11 +66,13 @@ tar -xzvf go1.20.6.linux-amd64.tar.gz
 ```shell
 vim /etc/profile
 ```
-在最后添加
+在最后一行添加
 
+```
 export GOROOT=/usr/local/go     //GOROOT为解压的go sdk目录
 
 export PATH=$PATH:$GOROOT/bin
+```
 
 保存文件, 执行source /etc/profile使环境变量生效
 
@@ -86,9 +83,6 @@ export PATH=$PATH:$GOROOT/bin
 继续在命令行终端里输入并回车
 ```shell
 go env -w GO111MODULE=on
-```
-```shell
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
-
 至此linux下的Go环境安装完毕
