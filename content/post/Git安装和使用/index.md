@@ -1,6 +1,6 @@
 ---
 title: Git安装和使用
-description: Git安装使用教程，Github注册使用（windows下，针对于小白）
+description: Git安装使用教程，Github注册使用（windows）
 slug: git-install
 date: 2023-07-22
 image:
