@@ -16,7 +16,7 @@ tags:
 
 选择nvm-setup.exe
 
-选择目录和nodejs环境目录直接下载即可
+选择目录和nodejs环境目录直接下载
 
 查看版本
 ```
