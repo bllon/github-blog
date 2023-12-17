@@ -94,6 +94,14 @@ params.toml
 在项目仓库下的settings中创建 PERSONAL_TOKEN 环境变量
 ![创建 PERSONAL_TOKEN 环境变量](img_10.png)
 
+在xx.github.io项目的settings下的actions/general下
+需要勾选权限：
+Allow all aactions and reusable workflows
+Require approval for first-time contributors
+Read and write permissions或者第二个
+
+token需要权限：gist, read:org, repo, workflow
+
 在项目仓库下的Actions中可以查看部署的任务，每次push提交远程仓库可以自动触发，也可以在GitHub仓库页面去执行和管理
 ![部署任务](img_11.png)
 
